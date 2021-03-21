@@ -17,7 +17,6 @@ export class NavbarComponent implements OnInit {
   }
 
   irUsuario(id): void {
-    console.log(id);
     if (!id) {
       return;
     }
